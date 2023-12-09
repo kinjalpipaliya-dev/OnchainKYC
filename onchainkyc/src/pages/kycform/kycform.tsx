@@ -1,5 +1,4 @@
 import React from 'react';
-import { LogInWithAnonAadhaar } from "anon-aadhaar-react";
 
 function KYCForm() {
   return (
@@ -32,16 +31,6 @@ function KYCForm() {
             Upload Aadhaar PDF
           </label>
           <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" aria-describedby="file_input_help" id="file_input" type="file" />
-          <p class="text-gray-600 text-xs italic">Upload your Masked Aadhaar PDF</p>
-        </div>
-      </div>
-      <div class="flex flex-wrap -mx-3 mb-6">
-        <div class="w-full px-3">
-          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-            Aadhar PDF Password
-          </label>
-          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="******************" />
-          <p class="text-gray-600 text-xs italic">Enter your Aadhaar PDF password</p>
         </div>
       </div>
       <div class="flex flex-wrap -mx-3 mb-6">
